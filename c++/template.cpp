@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-template <typename T>
+template <class T>
 T fun(T a,T b)
 {
 return a>b ? a:b;
