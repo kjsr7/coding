@@ -1,0 +1,19 @@
+#include<bits/stdc++.h>
+using namespace std;
+class A
+{
+	public:
+	static	int x;
+		A(int x)
+		{this.x  =x;
+		}
+		static void display()
+		{
+		cout<<x<<endl;
+		}
+};
+int main()
+{
+A a(2);
+a.display()
+}
